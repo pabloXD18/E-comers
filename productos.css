@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body {
+    margin: 0 60px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 100%;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    font-size: 24px;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    background-attachment: fixed;
+    background-image: url(./img/fondo.jpg);
+    background-size: cover;
+}
+
+/* Estilo para la pantalla de carga 
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+Estilo para la página de destino 
+.content {
+    display: none;
+}ontent {
+    display:
+
+body.loaded .c block;
+}
+
+body.loading .content {
+    display: none;
+}
+*/
+    /*
+    <script>
+        window.addEventListener("load", function () {
+            const loader = document.querySelector(".loader");
+            const body = document.querySelector("body");
+    
+            setTimeout(function () {
+                loader.style.display = "none";
+                body.classList.remove("loading");
+                body.classList.add("loaded");
+            }, 1000); // Cambia este valor (en milisegundos) al tiempo que quieras mostrar la pantalla de carga
+        });
+    </script>
+    
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    grid-auto-rows: minmax(330px, 276px);
+    padding: 0% 3% 15% 3%;
+    height: 100vh;
+}
+
+.cuadrado {
+    background: #EDC68C;
+    border-radius: 8px;
+}
+.articulos {
+    padding-top: 4%;
+    height: 130vh;
+}
+
+.wrapper1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    height: 420px;
+}
+.wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    height: 420px;
+}
+.cuadrado {
+    background: #EDC68C;
+    height: 390px;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.contenedor {
+    margin-bottom: 11px;
+    background: #ffffff;
+    width: 305px;
+    height: 73px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 4%;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+}
+
+.lista h1 {
+    color: #000;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.precio {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+}
+
+hr {
+    margin-bottom: 3%;
+}
+*/
+
+.container {
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #EDC68C;
+    width: 276px;
+    height: 330px;
+    border-radius: 8px;
+    padding: 0.5% 0.5%;
+}
+
+.background {
+    border-radius: 8px;
+    background-image: url(./img/fondo\ ropa.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+
+.containerInfo {
+    background-color: #ffffff;
+    height: 73px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+    z-index: 2;
+}
+
+
+.lista h1 {
+    font-size: 18px;
+}
+
+.precio {
+    font-size: 25px;
+}
+
+
+
+#lineas {
+    display: none;
+}
+#celu {
+    display: none;
+}
+#logocell {
+    display: none;
+}
+
+
+@media screen and (max-width:500px) {
+    header ul { 
+        display: none;
+    }
+    #carrito {
+        display: none;
+    }
+    #lineas {
+        display: block;
+    }
+
+    body {
+        margin: 0 25px;
+    }
+
+    #logopc {
+        display: none;
+    }
+    #logocell {
+        display: block;
+    }
+
+}
